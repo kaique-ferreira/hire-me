@@ -5,17 +5,29 @@
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/small_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="@string/cover_letter_title"
+            android:textSize="@dimen/largeTextSize"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="32dp"
-            android:text="@string/large_text"
+            android:layout_marginTop="@dimen/default_margin"
+            android:layout_marginBottom="@dimen/small_margin"
+            android:text="@string/cover_letter"
             android:textAlignment="center" />
 
     </LinearLayout>

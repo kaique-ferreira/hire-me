@@ -49,6 +49,10 @@ class MyWorkDetailsFragment : Fragment() {
 
         viewModel.selectedWorkExperienceItem.observe(this, Observer {
             jobImage.setImageResource(it.image)
+            jobTitle.text = it.title
+            jobDescription.text = it.description
+            jobCompany.text = it.companyName
+            googlePlayLink.text = it.googlePlayLink
         })
     }
 }
