@@ -9,5 +9,4 @@
  ![Alt text](list.png?raw=true "list")
   
  ![Alt text](detail.png?raw=true "detail")
- 
-  ![Alt text](home.png?raw=true "home")
+
